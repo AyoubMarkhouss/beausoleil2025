@@ -23,11 +23,12 @@ const BookTicket = () => {
             l’itinéraire parfait pour vous. 🌍
           </p>
         </div>
-
-        <button className="cabinet flex h-20 cursor-pointer items-center gap-2 bg-orangeboom px-8 py-3 text-lg text-white transition-transform duration-500 ease-in-out hover:scale-110">
-          Personnalisez votre aventure
-          <IoTicketOutline />
-        </button>
+        <a href="/customizedTravel">
+          <button className="cabinet flex h-20 cursor-pointer items-center gap-2 bg-orangeboom px-8 py-3 text-lg text-white transition-transform duration-500 ease-in-out hover:scale-110">
+            Personnalisez votre aventure
+            <IoTicketOutline />
+          </button>
+        </a>
       </div>
     </section>
   );
