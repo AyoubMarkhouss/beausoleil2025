@@ -41,7 +41,7 @@ const Hero = () => {
           <div className="absolute left-0 top-0 h-full w-full bg-black/20"></div>
         </div>
       </div>
-      <div className="-mt-20 px-5 md:-mt-20 md:px-10 lg:-mt-10 lg:px-20">
+      {/* <div className="-mt-20 px-5 md:-mt-20 md:px-10 lg:-mt-10 lg:px-20">
         <div className="grid grid-cols-2 shadow-xl rounded-l-lg lg:grid-cols-7">
           <div className="flex h-24 w-full items-center border-r rounded-l-lg bg-white">
             <Suspense>
@@ -119,7 +119,7 @@ const Hero = () => {
             </Button>
           </Link>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -9,10 +9,11 @@ const Home = async () => {
   return (
     <div>
       <Hero />
+      <Places />
+      <BookTicket />
       <AboutUs />
       <Services />
-      <BookTicket />
-      <Places />
+
       <Testimonials />
     </div>
   );

@@ -64,7 +64,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <div className="hidden lg:flex">
+          {/* <div className="hidden lg:flex">
             <ul className="flex gap-x-6 text-xl text-bigtitle">
               <li>
                 <Link
@@ -87,7 +87,7 @@ const Header = () => {
                 </SignedIn>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           <div className="container lg:hidden">
             <HamburgerIcon
@@ -97,7 +97,7 @@ const Header = () => {
 
             <nav className={hamburgerOpen ? "showMenuNav" : "hideMenuNav"}>
               <ul>
-                <li>
+                {/* <li>
                   <SignedOut>
                     <SignInButton>
                       <a className="cabinet flex transform cursor-pointer items-center gap-x-3 text-3xl transition-transform duration-500 ease-in-out hover:scale-125 hover:text-orangeboom">
@@ -108,7 +108,7 @@ const Header = () => {
                   <SignedIn>
                     <UserButton />
                   </SignedIn>
-                </li>
+                </li> */}
                 <li>
                   <Link href="/" className="cabinet text-3xl">
                     Accueil
